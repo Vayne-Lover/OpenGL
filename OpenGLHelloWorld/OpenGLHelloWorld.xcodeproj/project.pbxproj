@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EE5696541D1F93C000E464BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE5696531D1F93C000E464BE /* main.cpp */; };
+		EE78F5F61D20BF32000244B3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE78F5F41D20BF32000244B3 /* GLUT.framework */; };
+		EE78F5F71D20BF32000244B3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE78F5F51D20BF32000244B3 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		EE5696501D1F93C000E464BE /* OpenGLHelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLHelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5696531D1F93C000E464BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE78F5F41D20BF32000244B3 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EE78F5F51D20BF32000244B3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE78F5F61D20BF32000244B3 /* GLUT.framework in Frameworks */,
+				EE78F5F71D20BF32000244B3 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				EE5696521D1F93C000E464BE /* OpenGLHelloWorld */,
 				EE5696511D1F93C000E464BE /* Products */,
+				EE78F5F31D20BF32000244B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				EE5696531D1F93C000E464BE /* main.cpp */,
 			);
 			path = OpenGLHelloWorld;
+			sourceTree = "<group>";
+		};
+		EE78F5F31D20BF32000244B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE78F5F41D20BF32000244B3 /* GLUT.framework */,
+				EE78F5F51D20BF32000244B3 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +260,7 @@
 				EE5696591D1F93C000E464BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
